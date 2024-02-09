@@ -14,8 +14,8 @@ export function SignIn() {
   const [errorMessage, setErrorMessage] = useState(null);
 
   const [formData, setFormData] = useState({
-    mail: '',
-    password: '',
+    mail: 'tahiry@gmail.com',
+    password: 'tahiry',
   });
 
   // Gestionnaire d'événement pour la saisie des champs
